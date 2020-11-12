@@ -117,9 +117,9 @@
 		<key>Debug</key>
 		<false/>
 		<key>Arguments</key>
-		<string>dart=0</string>
+		<string>dart=0 -v -disablegfxfirmware</string>
 		<key>XMPDetection</key>
-		<false/>
+		<string>Yes</string>
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>DefaultVolume</key>
@@ -362,17 +362,21 @@
 	</dict>
 	<key>RtVariables</key>
 	<dict>
-		<key>BooterConfig</key>
-		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>F5K818306J9FHDDFB</string>
+		<key>ROM</key>
+		<data>wQSWdcVI</data>
+		<key>BooterConfig</key>
+		<string>0x28</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE17E</string>
+		<string>0xE80FE176</string>
 		<key>Board-ID</key>
-		<string>Mac-551B86E5744E2388</string>
+		<string>Mac-F60DEB81FF30ACF6</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF7F</string>
 		<key>BoardVersion</key>
@@ -380,39 +384,39 @@
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>0x09</string>
+		<string>0x02</string>
 		<key>BiosVersion</key>
-		<string>MBP143.88Z.F000.B00.2006161755</string>
+		<string>MP61.88Z.F000.B00.2006101810</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
+		<string>Pro-Enclosure</string>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0x04</string>
 		<key>Family</key>
-		<string>MacBook Pro</string>
+		<string>MacPro</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02838207GUJ1JHUE</string>
+		<string>F5K818306J9FHDDFB</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
-		<string>MacBookPro14,3</string>
+		<string>MacPro6,1</string>
 		<key>SmUUID</key>
-		<string>655C0C79-AACC-43A5-87A2-806AC8EB15F3</string>
+		<string>19AB9A40-7047-4955-BDD3-E5614675C548</string>
 		<key>Mobile</key>
-		<true/>
+		<false/>
 		<key>BoardType</key>
-		<integer>10</integer>
+		<integer>11</integer>
 		<key>EfiVersion</key>
-		<string>428.0.0.0.0</string>
+		<string>137.0.0.0.0</string>
 		<key>SerialNumber</key>
-		<string>C02XF2ZSHTD5</string>
+		<string>F5KWN9YLF9VM</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
-		<string>06/16/2020</string>
+		<string>06/10/2020</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -420,10 +424,12 @@
 	<dict>
 		<key>NvidiaWeb</key>
 		<true/>
-		<key>InjectKexts</key>
-		<string>Yes</string>
+		<key>CustomUUID</key>
+		<string>69518764-9B86-581C-BF44-52689CF1C583</string>
 		<key>InjectSystemID</key>
 		<true/>
+		<key>InjectKexts</key>
+		<string>Yes</string>
 	</dict>
 </dict>
 </plist>
